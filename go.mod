@@ -1,4 +1,4 @@
-module changeme
+module grpc-client
 
 go 1.18
 

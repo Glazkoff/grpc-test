@@ -8,6 +8,11 @@ import HelloWorld from "./components/HelloWorld.vue";
 </template>
 
 <style>
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
 #logo {
   display: block;
   width: 50%;

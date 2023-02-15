@@ -17,7 +17,7 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:  "grpc-test",
+		Title:  "Тест gRPC",
 		Width:  512,
 		Height: 340,
 		AssetServer: &assetserver.Options{

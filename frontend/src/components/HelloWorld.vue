@@ -24,6 +24,7 @@ function greet() {
         autocomplete="off"
         class="input"
         type="text"
+        @keypress.enter="greet"
       />
       <button class="btn" @click="greet">Отправить</button>
     </div>
